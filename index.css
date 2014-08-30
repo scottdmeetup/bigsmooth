@@ -21,6 +21,15 @@ body {
 	position: ;
 }
 
+.top-header a {
+	text-decoration: none;
+}
+
+.top-header a:visited {
+	text-decoration: none;
+	color: black;
+}
+
 .top-header ul {
 	list-style-type: none;
 	text-align: center;
@@ -84,6 +93,15 @@ body {
 	text-align: center;
 }
 
+.left-box li:hover {
+	opacity: .7;
+	text-decoration: none;
+}
+
+.left-box a:visited {
+	color: black;
+}
+
 .right-body {
 	background-color: #EDEDED;
 	color: black;
@@ -91,7 +109,7 @@ body {
 	font-family: 'Oswald';
 	float: right;
 	position: absolute;
-	width: 300px;
+	width: 315px;
 	text-align: left;
 }
 
@@ -112,7 +130,7 @@ body {
 	float: none;
 	font-family: 'Oswald';
 	background-color: #EDEDED;
-	padding-left: 725px;
+	padding-left: 750px;
 	text-align: center;
 }
 
@@ -143,4 +161,33 @@ body {
 
 #footer .flogo {
 	clear: both;
+}
+
+
+/*  listen.html  starts here  */
+
+.listen-all-below {
+	width: 95%;
+	background-color:#EDEDED;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+.listen-all-below ul {
+	list-style-type: none;
+}
+
+.track-listing {
+	text-align: center;
+}
+
+.track-listing h3 {
+	font-family: 'Permanent Marker';
+}
+
+.track-listing p {
+	font-size: 12px;
+	text-align: left;
 }
