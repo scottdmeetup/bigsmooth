@@ -63,6 +63,8 @@ body {
 	margin-top: 0;
 	background-color: #EDEDED;
 	display: inline-block;
+	height: auto;
+	clear: both;
 }
 
 .left-box {
@@ -84,13 +86,23 @@ body {
 	font-family: 'Oswald';
 	float: right;
 	position: absolute;
+	width: 250px;
+	text-align: left;
+}
+
+.right-body p {
+	font-size: 11px;
+}
+
+.right-body h1 {
+	text-align: center;
 }
 
 .vids {
 	float: none;
 	font-family: 'Oswald';
 	background-color: #EDEDED;
-	padding-left: 550px;
+	padding-left: 625px;
 }
 
 #footer {
