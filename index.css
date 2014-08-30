@@ -1,6 +1,6 @@
 body {
 	background-color: #4D4D4D;
-	text-align: center;
+	text-align: center;g
 }
 
 .top-header {
@@ -90,6 +90,7 @@ body {
 	float: none;
 	font-family: 'Oswald';
 	background-color: #EDEDED;
+	padding-left: 550px;
 }
 
 #footer {
