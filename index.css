@@ -126,6 +126,14 @@ body {
 	font-family: 'Permanent Marker';
 }
 
+.right-body a {
+	text-decoration: none;
+}
+
+.right-body a:visited {
+	color: black;
+}
+
 .vids {
 	float: none;
 	font-family: 'Oswald';
@@ -189,5 +197,4 @@ body {
 
 .track-listing p {
 	font-size: 12px;
-	text-align: left;
 }
