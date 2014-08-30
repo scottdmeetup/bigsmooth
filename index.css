@@ -171,6 +171,9 @@ body {
 	clear: both;
 }
 
+.cleary {
+	clear: both;
+}
 
 /*  listen.html  starts here  */
 
@@ -196,4 +199,20 @@ body {
 
 .track-listing p {
 	font-size: 12px;
+}
+
+
+/* instruments.html */
+
+.inst-all-below {
+	width: 95%;
+	background-color:#EDEDED;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+}
+
+.namepic {
+	float: left;
+	text-align: center;
 }
