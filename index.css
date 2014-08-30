@@ -209,10 +209,21 @@ body {
 	background-color:#EDEDED;
 	margin-left: auto;
 	margin-right: auto;
-	height: 500px;
+	height: 400px;
+}
+
+.instrument ul {
+	display: inline-block;
+	float: left;
+	padding-top: 50px;
+}
+
+.instrument h3 {
+	font-family: 'Permanent Marker';
 }
 
 .namepic {
 	float: left;
 	text-align: center;
+	padding-left: 50px;
 }
