@@ -86,11 +86,11 @@ body {
 .right-body {
 	background-color: #EDEDED;
 	color: black;
-	margin-left: 30%;
+	margin-left: 33%;
 	font-family: 'Oswald';
 	float: right;
 	position: absolute;
-	width: 250px;
+	width: 300px;
 	text-align: left;
 }
 
@@ -102,11 +102,15 @@ body {
 	text-align: center;
 }
 
+.right-body h4 {
+	text-align: center;
+}
+
 .vids {
 	float: none;
 	font-family: 'Oswald';
 	background-color: #EDEDED;
-	padding-left: 625px;
+	padding-left: 675px;
 }
 
 #footer {
