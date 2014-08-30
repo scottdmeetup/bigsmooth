@@ -79,6 +79,10 @@ body {
 	float: left;
 }
 
+.left-box h1 {
+	text-align: center;
+}
+
 .right-body {
 	background-color: #EDEDED;
 	color: black;
