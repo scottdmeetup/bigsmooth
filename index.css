@@ -35,12 +35,14 @@ body {
 .top-header ul {
 	list-style-type: none;
 	text-align: center;
+	padding: 0px;
 }
 
 .top-header li {
 	display: inline;
 	padding-left: 100px;
 	padding-right: 40px;
+	list-style-position: 
 }
 
 .top-header li:hover {
@@ -144,6 +146,8 @@ body {
 	text-align: center;
 }
 
+/* footer stuff */
+
 #footer {
 	background-color: grey;
 	width: 95%;
@@ -159,6 +163,7 @@ body {
 	display: inline-block;
 	list-style-type: none;
 	text-align: left;
+	padding: 0px;
 }
 
 #footer h4 {
@@ -167,6 +172,10 @@ body {
 
 #footer li {
 	padding-right: 100px;
+}
+
+#footer li:hover {
+	opacity: .7;
 }
 
 #footer .flogo {
@@ -188,9 +197,14 @@ body {
 	padding-bottom: 30px;
 }
 
+.listen-all-below h1 {
+	padding-top: 30px;
+}
+
 .listen-all-below ul {
 	list-style-type: none;
 	margin-bottom: 0%;
+	padding: 0px;
 }
 
 .track-listing {
@@ -234,6 +248,7 @@ body {
 	text-align: left;
 	padding-right: 50px;
 	width: 100px;
+	padding-left: 0px;
 }
 
 .instrument h3 {
@@ -256,4 +271,28 @@ body {
 	float: left;
 	text-align: center;
 	padding-left: 50px;
+}
+
+
+/* contact page */
+
+.contact-all-below {
+	width: 95%;
+	background-color:#EDEDED;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	padding-bottom: 50px;
+}
+
+.addy {
+	text-align: left;
+	margin-left:30%;	
+	position: absolute;
+}
+
+.more-info {
+	text-align: left;
+	margin-left: 55%;
+	position: absolute;
 }
