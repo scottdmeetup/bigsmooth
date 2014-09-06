@@ -2,6 +2,7 @@ body {
 	background-color: #4D4D4D;
 	text-align: center;
 	font-family: 'Oswald';
+	color: black;
 }
 
 .top-header {
@@ -19,6 +20,7 @@ body {
 	margin-top: 2px;
 	font-family: 'Permanent Marker';
 	position: inherit;
+	text-align: center;
 }
 
 .top-header a {
