@@ -285,6 +285,19 @@ body {
 	padding-bottom: 50px;
 }
 
+.contact-all-below img {
+	float: left;
+	display: absolute;
+	height: 150px;
+	width: 200px;
+	padding-left: 80px;
+	margin-top: 20px;
+}
+
+.contact-all-below h3 {
+	padding-bottom: 10px;
+}
+
 .addy {
 	text-align: left;
 	margin-left:30%;	
@@ -293,6 +306,6 @@ body {
 
 .more-info {
 	text-align: left;
-	margin-left: 55%;
+	margin-left: 60%;
 	position: absolute;
 }
