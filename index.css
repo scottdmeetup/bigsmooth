@@ -214,17 +214,42 @@ body {
 	background-color:#EDEDED;
 	margin-left: auto;
 	margin-right: auto;
-	height: 400px;
+	height: auto;
+	padding-bottom: 50px;
+}
+
+.inst-all-below h1 {
+	padding-top: 30px;
+}
+
+.instrument {
+	display: inline-block;
 }
 
 .instrument ul {
 	display: inline-block;
 	float: left;
 	padding-top: 50px;
+	list-style-type: circle;
+	text-align: left;
+	padding-right: 50px;
+	width: 100px;
 }
 
 .instrument h3 {
 	font-family: 'Permanent Marker';
+}
+
+.instrument p {
+	font-size: 12px;
+	margin: 6% 5% auto 5%;
+	float: none;
+	position: inherit;
+	text-align: left;
+}
+
+.instrument br {
+	padding-top: 100px;
 }
 
 .namepic {
